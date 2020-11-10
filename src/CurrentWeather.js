@@ -2,12 +2,12 @@ import React from "react";
 
 export default function CurrentWeather () {
   return (
-        <div class="current-weather">
+        <div className="current-weather">
           <h3>cloudy</h3>
           <h1>New York</h1>
           <h2>
             <span id="temp"> 19 </span>
-            <span class="units">
+            <span className="units">
               <a href="#">C</a> | <a href="#">F</a>{" "}
             </span>
           </h2>
